@@ -87,7 +87,7 @@ class Player:
 
 				if self.handValue > 21:
 
-					turnEnd = CheckForAces()
+					turnEnd = self.CheckForAces()
 
 			elif self.playerInput == "Stand":
 

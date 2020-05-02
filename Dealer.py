@@ -89,7 +89,7 @@ class Dealer:
 
 				if self.handValue > 21:
 
-					turnEnd = CheckForAces()
+					turnEnd = self.CheckForAces()
 
 					if turnEnd is True:
 
