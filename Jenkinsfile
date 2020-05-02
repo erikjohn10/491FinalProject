@@ -8,8 +8,8 @@ pipeline {
                 }
             }
             steps {
-                sh 'python -m py_compile sources/game.py sources/blackjack.py sources/Player.py sources/Card.py sources/Dealer.py' 
-                stash(name: 'compiled-results', includes: 'sources/*.py*') 
+                sh 'python -m py_compile game.py blackjack.py Player.py Card.py Dealer.py' 
+                stash(name: 'compiled-results', includes: '*.py*') 
             }
         }
     }
