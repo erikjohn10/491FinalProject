@@ -51,6 +51,7 @@ class Dealer:
 
 		print("Hand Value: " + str(hiddenHandVal) + " + ??? \n")
 
+	"""Checks to find aces in the Dealers hand. If an ace exists, returns false to indicate that the dealer didn't bust"""
 	def CheckForAces(self):
 
 		turnEnd = False
