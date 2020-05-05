@@ -12,6 +12,8 @@ class Dealer:
 
 		self.hand.append(deck[count])
 
+	"""Comment to trigger automatic build and deployment"""
+
 	"""Helper function for testing purposes"""
 	def SetHand(self, card1, card2):
 
